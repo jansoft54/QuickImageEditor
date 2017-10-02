@@ -65,8 +65,8 @@ namespace Main.Commands
                     for (int j = 0; j < 3 + 2 * (intensity - 1); j++)
                     {
 
-                        int x = n[0] - intensity - 1;
-                        int y = n[1] - intensity - 1;
+                        int x = n[0] - intensity;
+                        int y = n[1] - intensity;
 
                         if (y + i > 0 && x + j > 0 && y + i < bitmap.Height - 1 && x + j < bitmap.Width - 1)
                         {
